@@ -1,0 +1,33 @@
+<form [formGroup]="TravelForm" (ngSubmit)="onSubmit()">
+    <label>שם:</label>
+    <input formControlName="name" type="text">
+  
+    <label>טלפון:</label>
+    <input formControlName="phone" type="phone">
+  
+    <label>כתובת:</label>
+    <input formControlName="address" type="text">
+  
+    <label>מחיר:</label>
+    <input formControlName="price" type="text">
+  
+    <label>תאריך:</label>
+    <input formControlName="date" type="date">
+  
+    <label>עיר מוצא:</label>
+    <select formControlName="startCity">
+      <option value="startCity1">Start City 1</option>
+      <option value="startCity2">Start City 2</option>
+      <option value="startCity3">Start City 3</option>
+    </select>
+  
+    <label>עיר יעד:</label>
+    <select formControlName="endCity">
+      <option value="endCity1">End City 1</option>
+      <option value="endCity2">End City 2</option>
+      <option value="endCity3">End City 3</option>
+    </select>
+  
+    <button type="submit">שלח</button>
+  </form>
+  
