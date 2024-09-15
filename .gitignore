@@ -43,8 +43,4 @@ Thumbs.db
 
 
 
-#/node_modules
-#src\app\vel
 /src/app/vel
-#node_modules/
-#.angular/
